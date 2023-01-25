@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="src/imagens/imagem_logo_site.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+
+    <title>Gato de Botas 2: O Último Pedido</title>
+</head>
+<body>
+
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src= src/video/gato_de_botas.mp4 type="video/mp4">
+        </video>
+    </div>
+
+    <header class = "cabecalho">
+        <a>
+            <img class="logo" src="src/imagens/logo.png" alt="logo gato de botas">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a class="botao-detalhes" href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+
+        <div class="informacoes">
+            <img class="imagem-titulo" src="src/imagens/imagem_titulo.png" alt="imagem do título do filme">
+            <p class="descricao">
+                O Gato de Botas descobre que sua paixão pela aventura cobrou seu preço: ele já gastou oito de suas nove vidas. Ele então parte em uma jornada épica para encontrar o mítico Último Desejo e restaurar suas nove vidas.
+            </p>
+            <button class="botao-trailer">Veja o trailer</button>
+        </div>
+        <img class="gato" src="src/imagens/imagem_principal.png" alt="imagem do gato de botas, kitty pata mansa e perrito"> 
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://youtube.com/embed/qtHcEfpYIow" title="Trailer oficial" frameboarder="1" allow="accelerometer; autopaly; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="detalhes">
+
+            <nav>
+                <ul class="menu-detalhes">
+                    <li><a class="botao-home" href="#">Home</a></li>
+                </ul>
+            </nav>
+
+ 
+
+            <div class="conteudo-detalhes">
+                
+                <h1>Sobre o projeto</h1>
+                <h3>Criado por: Isabella Sampaio</h3>
+                
+                <center>
+                    
+                    <p>Projeto orientado / inspirado pelo projeto criado <br>
+                    pelo canal DevEmDobro (<a href="https://www.youtube.com/@DevemDobro">Youtube</a>)</p>
+
+                </center>
+                <a href="https://github.com/IsabellaSampaio/gato-de-botas-2">Github</a>
+            </div>
+        </div>
+    </main> 
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
