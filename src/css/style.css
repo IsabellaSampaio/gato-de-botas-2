@@ -144,7 +144,81 @@ body {
 }
 
 
+.detalhes {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: black;
+    visibility: hidden;
+
+}
+
+.detalhes .menu-detalhes {
+    display: flex;
+    padding: 30px;
+    height: 100%;
+}
+
+.detalhes nav li a {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.detalhes nav li a:hover {
+    background-color: #d5621b;
+    
+}
 
 
+.conteudo-detalhes {
+    display: flex;
+    justify-content: safe;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    border-radius: 5px;
+    gap:15px;
+    padding: 250px;
+}
+
+.detalhes h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+}
+
+.detalhes h3 {
+    font-weight:normal;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+.detalhes p {
+    font-weight:normal;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+.detalhes a {
+    font-size: 1.2em;
+    color: rgb(210, 140, 96);
+}
+
+.detalhes a:hover {
+    transform: scale(1.1);
+}
+
+.detalhes.aberto {
+    opacity: 1;
+    visibility: visible;
+}
 
 
