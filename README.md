@@ -8,3 +8,4 @@
 - CSS foi utilizado para estilizar o site e dar uma UI mais friendly e esteticamente agradável
 - JavaScript foi utilizado para dar funcionalidade ao site e assim fazer ser possível ver o trailer do filme diretamente do site
 
+![Captura de tela 2023-04-11 182805](https://user-images.githubusercontent.com/71940799/231292720-389fe61d-37ab-4651-a58a-ac7ba328cd32.jpg)
